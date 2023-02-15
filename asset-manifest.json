@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.82e7a0cf.css",
-    "main.js": "/static/js/main.825b7b59.js",
+    "main.js": "/static/js/main.56575664.js",
     "static/js/305.3d39df7e.chunk.js": "/static/js/305.3d39df7e.chunk.js",
     "static/js/622.b7f73497.chunk.js": "/static/js/622.b7f73497.chunk.js",
     "static/js/545.dd31569c.chunk.js": "/static/js/545.dd31569c.chunk.js",
@@ -76,6 +76,7 @@
     "static/media/lifi.svg": "/static/media/lifi.f48fef4c076044b6a117b280668b6e10.svg",
     "static/media/ens.svg": "/static/media/ens.19322a622f8424534e5d8dd536c30df5.svg",
     "index.html": "/index.html",
+    "static/media/BNBChain.svg": "/static/media/BNBChain.f05e0c392e3749f6b998c47ef97e9439.svg",
     "static/media/podsfinance.svg": "/static/media/podsfinance.322248eb7bbbed15092ed7bf9b5c9976.svg",
     "static/media/mover.svg": "/static/media/mover.08fe3c87e78d8aa70791715f3151d4f2.svg",
     "static/media/goodghosting.svg": "/static/media/goodghosting.fd42c35117b8f5256caf0320ece6f014.svg",
@@ -115,7 +116,7 @@
     "static/media/footerjoinus.svg": "/static/media/footerjoinus.e4eb6f73f1b4908d0a3f04f43ff0b320.svg",
     "static/media/idlefinance.svg": "/static/media/idlefinance.98f0462726494b8c261e1cca1a36e465.svg",
     "main.82e7a0cf.css.map": "/static/css/main.82e7a0cf.css.map",
-    "main.825b7b59.js.map": "/static/js/main.825b7b59.js.map",
+    "main.56575664.js.map": "/static/js/main.56575664.js.map",
     "305.3d39df7e.chunk.js.map": "/static/js/305.3d39df7e.chunk.js.map",
     "622.b7f73497.chunk.js.map": "/static/js/622.b7f73497.chunk.js.map",
     "545.dd31569c.chunk.js.map": "/static/js/545.dd31569c.chunk.js.map",
@@ -127,6 +128,6 @@
   },
   "entrypoints": [
     "static/css/main.82e7a0cf.css",
-    "static/js/main.825b7b59.js"
+    "static/js/main.56575664.js"
   ]
 }
