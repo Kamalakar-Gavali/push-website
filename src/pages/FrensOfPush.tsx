@@ -18,7 +18,7 @@ import ChannelItem, { Tilt } from 'components/ChannelItem';
 import { FiChevronDown } from 'react-icons/fi';
 import SpinnerSVG from 'assets/Spinner.gif';
 import Image from 'assets/bg-image.png';
-import { objChannelList } from 'config/ChannelList';
+import { ChannelList, objChannelList } from 'config/ChannelList';
 import { ReactComponent as AaveSVG } from '../assets/float/aave.svg';
 import { ReactComponent as LensSVG } from '../assets/float/Lens.svg';
 import { ReactComponent as LifiSVG } from '../assets/float/Lifi.svg';
@@ -90,6 +90,7 @@ const FrensText = () => {
 
   useEffect(() => {
     fetchChannels();
+    ChannelList();
   }, [objChannelList]);
 
   const fetchChannels = () => {

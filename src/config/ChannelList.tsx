@@ -3,6 +3,9 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable */
 
+import axios from "axios";
+import { useEffect } from "react";
+
 export const objChannelList = [
   {
     id: 1,
@@ -3912,19 +3915,37 @@ export const objChannelList = [
   },
 ];
 
-// const ChannelList = () => {
-//   const [list, setList] = useState([]);
-//   async function getChannels() {
-//     const requrl =  `https://backend.epns.io/apis/v1/channels?page=1&limit=9&sort=subscribers&order=desc`;
+export const newList = [
+  {
+    channel: '0xe56f1D3EDFFF1f25855aEF744caFE7991c224FFF', 
+    type: 'Media'
+  },
+  {
+    channel: '0xB88460Bb2696CAb9D66013A05dFF29a28330689D',
+    type: 'Infrastructure',
+  }
+]
+export const ChannelList = () => {
+  // const [list, setList] = useState([]);
+  // useEffect(()=> {
+    getChannels();
+  // },[])
+  async function getChannels() {
+    const requrl =  `https://backend.epns.io/apis/v1/channels?page=1&limit=9&sort=subscribers&order=desc`;
 
-//     try {
-//       const apiResponse = await axios.get(requrl);
-//       const channels = apiResponse?.data?.channels;
-//       return channels;
-//     } catch (error) {
-//       throw Error(error);
-//     }
-//   }
-// }
+    try {
+      const apiResponse = await axios.get(requrl);
+      const channels = apiResponse?.data?.channels;
+      // const result = channels.find(function (x, i) {
+      //   return (x === newList[i]?.channel);
+      // })
+      // { ...x, type: newList?.channel }
+      // const result = channels.map((x) => ({ ...x, type: newList[x.channel] },console.log(x,newList?.[x.channel])))
+      console.log(result);
+      return channels;
+    } catch (error) {
+      throw Error(error);
+    }
+  }
+}
 
-// export default ChannelList
