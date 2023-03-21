@@ -3929,6 +3929,7 @@ export const ChannelList = () => {
   // const [list, setList] = useState([]);
   // useEffect(()=> {
     getChannels();
+
   // },[])
   async function getChannels() {
     const requrl =  `https://backend.epns.io/apis/v1/channels?page=1&limit=9&sort=subscribers&order=desc`;
@@ -3936,12 +3937,17 @@ export const ChannelList = () => {
     try {
       const apiResponse = await axios.get(requrl);
       const channels = apiResponse?.data?.channels;
-      // const result = channels.find(function (x, i) {
-      //   return (x === newList[i]?.channel);
-      // })
+      // const result = channels.filter((x) => newList.find((y) => { return x?.channel === y?.channel; }));
       // { ...x, type: newList?.channel }
+      const result = newList.map((x) => {
+        const index = channels.find((u) => u.channel === x.channel); 
+        if (index) 
+        console.log(index, 'new');
+        {newList.push({...index, type: x?.type }) }
+        return x;
+      })
       // const result = channels.map((x) => ({ ...x, type: newList[x.channel] },console.log(x,newList?.[x.channel])))
-      console.log(result);
+      console.log(result,newList);
       return channels;
     } catch (error) {
       throw Error(error);
