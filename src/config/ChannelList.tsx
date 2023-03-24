@@ -3923,35 +3923,645 @@ export const newList = [
   {
     channel: '0xB88460Bb2696CAb9D66013A05dFF29a28330689D',
     type: 'Infrastructure',
-  }
+  },
+  {
+    channel: '0x8C28Cf33d9Fd3D0293f963b1cd27e3FF422B425c',
+    type: 'DAO',
+  },
+  {
+    channel: '0xef6426D522CfE5B7Ae5dB05623aB0Ef78023dBe0',
+    type: 'Social',
+  },
+  {
+    channel: '0x8Cd0ad5C55498Aacb72b6689E1da5A284C69c0C7',
+    type: 'DAO',
+  },
+  {
+    channel: '0x57cD6665e725232123F5250328E35Db6ABf6d80C',
+    type: 'DeFi',
+  },
+  {
+    channel: '0xeEECa1449a75c96d2B34722AE7eE64121be42111',
+    type: 'NFT',
+  },
+  {
+    channel: '0x2dbf5aFead4759E6151590E4a8F6cD596B7044F8',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x7F41abf7fDb9E4A6373EC3BAB3Df814b5CCceCC3',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x23c6b8fB0557FD5e6696BceF3fD4855E0d7018C0',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x12b3eE60Df8ea26D03b8035Ec90434a38A82C4C7',
+    type: 'Infrastructure',
+  },
+  {
+    channel: '0x27DBFe00485f00C7d4018d4FFA73D0dac9d16323',
+    type: 'Gaming',
+  },
+  {
+    channel: '0xb754601d2C8C1389E6633b1449B84CcE57788566',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x1Ad1Df4F94B10fa06fE2Fa2A1a536fAAd27c414d',
+    type: 'Media',
+  },
+  {
+    channel: '0xfE4A6Fbd27B496855245A1e8047F693f0aDfDb08',
+    type: 'Tooling',
+  },
+  {
+    channel: '0x327a29fcE0a6490E4236240Be176dAA282EcCfdF',
+    type: 'Tooling',
+  },
+  {
+    channel: '0xdc0964aaacE97CF4E7476B4EEbC924730E524ade',
+    type: 'DeFi',
+  },
+  {
+    channel: '0xFb3bD022D5DAcF95eE28a6B07825D4Ff9C5b3814',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x994909594Ef6c80cE8d9C85Ad30AeC696E10f73E',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x8bf25240402C126bb236d26D391b782c5c893D32',
+    type: 'DAO',
+  },
+  {
+    channel: '0xBCAc4dafB7e215f2F6cb3312aF6D5e4F9d9E7eDA',
+    type: 'Metaverse',
+  },
+  {
+    channel: '0xb4F88Ad000A53638F203dcA2C39828a58057d53c',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x8DaFfe9d1b5aDB33F53aDDC183C6b91F9cb30bc7',
+    type: 'Service',
+  },
+  {
+    channel: '0x5aFeDeF166bd626B3043cb1D53e16EA9BF863E06',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x91c9D4373B077eF8082F468C7c97f2c499e36F5b',
+    type: 'DeFi',
+  },
+  {
+    channel: '0xde3e447E125FA2391DC9BCbfA0B821424422FEAF',
+    type: 'Service',
+  },
+  {
+    channel: '0x9B43a385E08EE3e4b402D4312dABD11296d09E93',
+    type: 'DeFi',
+  },
+  {
+    channel: '0xA8aF754379d8ae406dFbDD0D6c46324aD647243E',
+    type: 'DeFi',
+  },
+  {
+    channel: '0xCB1e9fA11Edd27098A6B2Ff23cB6b79183ccf8Ee',
+    type: 'Infrastructure',
+  },
+  {
+    channel: '0xe8381F84a32A4C2B08c328BfF68c0E889a34F255',
+    type: 'DeFi',
+  },
+  {
+    channel: '0xd32908F63713F514aDDBE3962A2dE7112fdCD4A7',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x77f319B1d9c43a8B729399f81515166632100744',
+    type: 'Tooling',
+  },
+  {
+    channel: '0x187a34c86aA6378333cE9033Aa34718D2CEdEd2C',
+    type: 'DAO',
+  },
+  {
+    channel: '0xe5b06bfd663C94005B8b159Cd320Fd7976549f9b',
+    type: 'Tooling',
+  },
+  {
+    channel: '0x361Cb6BE977d0113A33914A8f952Ced95747F793',
+    type: 'Gaming',
+  },
+  {
+    channel: '0xA2dEe32662F6243dA539bf6A8613F9A9e39843D3',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x0B430A1651E6A64510afC97195040359941d0b23',
+    type: 'NFT',
+  },
+  {
+    channel: '0xC30CE8F08BD8F667E65185310807Db937A5d6E53',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x2f5ccA6f594118ef54f4157927A323BaA982Fd78',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x69eFf1979933f51D1d0A2D8cEbAAf39A156CBE49',
+    type: 'Metaverse',
+  },
+  {
+    channel: '0x30a1627fDdc0dBB7dD00b881D25A45B443f294bB',
+    type: 'Service',
+  },
+  {
+    channel: '0x54728f10F525193A61Ded237707f2d5022cA4977',
+    type: 'DAO',
+  },
+  {
+    channel: '0xc04bd413E7d7C277B27FAa27E4b3015801c26914',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x72252a31fD67D2FACBE6D189F5861C5553474447',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x27F68B2C092DB48928D70EA781F7dE8B844ad07B',
+    type: 'NFT',
+  },
+  {
+    channel: '0xFB9684ec1026513241F777485911043DC2aA9a4f',
+    type: 'NFT',
+  },
+  {
+    channel: '0x70258F9a9872eC4b29A25506E032C837138b4290',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x64A971F0D01b3555Ac60B9Bd151d5B7A75cf12Fd',
+    type: 'DAO',
+  },
+  {
+    channel: '0x983110309620D911731Ac0932219af06091b6744',
+    type: 'Infrastructure',
+  },
+  {
+    channel: '0x2B8ffb4460550Dbe8Ec1cEA9C1B61322dB56B082',
+    type: 'Tooling',
+  },
+  {
+    channel: '0xDBc5936E4daaE94F415C39D284f6a69c4d553F2F',
+    type: 'Tooling',
+  },
+  {
+    channel: '0x03EAAAa48ea78d1E66eA3458364d553AD981871E',
+    type: 'Tooling',
+  },
+  {
+    channel: '0x0000000000000000000000000000000000000000',
+    type: 'Service',
+  },
+  {
+    channel: '0x01460723c3EcC805c7D2Fd06c31CdE413d048F6E',
+    type: 'NFT',
+  },
+  {
+    channel: '0x9c38378F786B04D0D9F104C3E33492691456BA44',
+    type: 'Media',
+  },
+  {
+    channel: '0xAA940b3501176af328423d975C350d0d1BaAae50',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x62d8704FB77b69e50e6908B67aA1044A573cc331',
+    type: 'Service',
+  },
+  {
+    channel: '0x97E5271f2987c7A3450e21dD7FFe4D004ddE773E',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x80375eAD5561e19668eb1Dd2b6A44Fa14D5eB6BF',
+    type: 'Infrastructure',
+  },
+  {
+    channel: '0x46b676303ebC5699BF47e416677A57A89c70a015',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x53EC02E1c9A7fb9b8Bf1ab050Ea1e9a1E16e8745',
+    type: 'Social',
+  },
+  {
+    channel: '0x57f61667Ec26A23C47c77ab1B39c983BE3Bb7855',
+    type: 'Infrastructure',
+  },
+  {
+    channel: '0xc8AC08804D11c8513eE7038258721eD3663f4Fc3',
+    type: 'Infrastructure',
+  },
+  {
+    channel: '0x68e9DaC7f8fa2e5F6C823Df82c91AC0F132Ec7E4',
+    type: 'NFT',
+  },
+  {
+    channel: '0x2fF3f1B9fD0fFa711e5121FF12ffEc3443240338',
+    type: 'NFT',
+  },
+  {
+    channel: '0x3113558EA6918c3ae1D9247D1d7a3F9efF5888D8',
+    type: 'NFT',
+  },
+  {
+    channel: '0x7DA9A33d15413F499299687cC9d81DE84684E28E',
+    type: 'DeFi',
+  },
+  {
+    channel: '0xC2f41b3a1FF28Fd2A6EeE76EE12e51482fcFd11F',
+    type: 'Service',
+  },
+  {
+    channel: '0x72F569DE6d77B1D4C3810767865FC706A1C39915',
+    type: 'Social',
+  },
+  {
+    channel: '0x9Fb3d86157a9e2dC2a771C297f88FA9784fa4e31',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x64DCbc3CFf913ab0f0d936162289002E44180504',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x3c1F2E6Ec3De7811E2daa2B8E132CdCd8e39851c',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x90A48D5CF7343B08dA12E067680B4C6dbfE551Be',
+    type: 'DeFi',
+  },
+  {
+    channel: '0xbb83D92c8D2b1523b6Be79C822c20865D70321cC',
+    type: 'Service',
+  },
+  {
+    channel: '0x215275f3fe5aCc82BfF9D8894f90c4E8D51030a1',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x64F4fba925CbDe309acC875b8Af2feb07f2aCCA0',
+    type: 'Media',
+  },
+  {
+    channel: '0x9bE426C8A28ee7Ca935b5C27a4bc2395640c9378',
+    type: 'Metaverse',
+  },
+  {
+    channel: '0x174e4Bb368B9a31661B4C35bE595369fF1A68a13',
+    type: 'Tooling',
+  },
+  {
+    channel: '0x8932eb23BAD9bDdB5cF81426F78279A53c6c3b71',
+    type: 'Infrastructure',
+  },
+  {
+    channel: '0x00D3616e6CEb7e33605E12530F2D58dc806372eC',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x4b69D6081ff943AFd0c6561c3DA5Ac563CE4CdFB',
+    type: 'Media',
+  },
+  {
+    channel: '0x069e85D4F1010DD961897dC8C095FBB5FF297434',
+    type: 'DAO',
+  },
+  {
+    channel: '0x991552E1C2A96D0Ae72E19552b08A1889aebCF53',
+    type: 'Tooling',
+  },
+  {
+    channel: '0x19A6C52bd08898F8Ee5c6ba3FB67AFd184be8034',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x3d3f0eaF7F24a31023019F178296235f293d4561',
+    type: 'Tooling',
+  },
+  {
+    channel: '0xAA7A9d80971E58641442774C373C94AaFee87d66',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x53638975BC11de3029E46DF193d64879EAeA94eB',
+    type: 'DeFi',
+  },
+  {
+    channel: '0xb1676B5Ab63F01F154bb9938F5e8999d9Da5444B',
+    type: 'Media',
+  },
+  {
+    channel: '0x8f8c78b99BF1A0D38dE628245a0032460dcE07e5',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x0fEdC054075d14CF941A5cC62d22EBE9ad5de742',
+    type: 'Tooling',
+  },
+  {
+    channel: '0x70Be0de1D95240a73F6C24cD07A155D9E78d8B60',
+    type: 'Tooling',
+  },
+  {
+    channel: '0x7DBF6820D32cFBd5D656bf9BFf0deF229B37cF0E',
+    type: 'Tooling',
+  },
+  {
+    channel: '0xC5d5f9cbC114E22bB23aAf10F847ECF28756dFB7',
+    type: 'NFT',
+  },
+  {
+    channel: '0x284D1B309aea124fE8a28Dc362EaD0eF487A0749',
+    type: 'Service',
+  },
+  {
+    channel: '0x49d9Dc540A0Bd0539Dd92eb46f3A436d49aBea55',
+    type: 'Service',
+  },
+  {
+    channel: '0xc27855dA3df5088AE7C29f0e975dE3233E87B5A5',
+    type: 'Tooling',
+  },
+  {
+    channel: '0xa643fF2599F4b117E399C17E378f8df42D144298',
+    type: 'Tooling',
+  },
+  {
+    channel: '0x6C628A0B7c7FF9f721D820ff267373Ae906D6BeD',
+    type: 'NFT',
+  },
+  {
+    channel: '0xfc21aE6b64B50e78ef72E0c9F9Cf6cDF61052483',
+    type: 'Tooling',
+  },
+  {
+    channel: '0x88C01390933A2bC790cf478bdefB9251Fc58DEd4',
+    type: 'NFT',
+  },
+  {
+    channel: '0xB7957A2b320A7A77dA909aC6f8bc71ac5C3dE3A8',
+    type: 'Tooling',
+  },
+  {
+    channel: '0x1dB67D560813Ea7AbA48bD8A9429CBECBeB2118e',
+    type: 'Tooling',
+  },
+  {
+    channel: '0x4660275241C042E3ac6034241Fd586680DA49a1d',
+    type: 'Tooling',
+  },
+  {
+    channel: '0xE55496e5eA3Ca27e527CE2dc165D0F66933d42D0',
+    type: 'DeFi',
+  },
+  {
+    channel: '0xEf0D8F546880d1D41e7F35c5BA06a43C7F42FF2f',
+    type: 'NFT',
+  },
+  {
+    channel: '0x8a1137B0F94eF5e4c71ae400E83239aeE46A0365',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x6575A93aBdFf85e5A6b97c2DB2b83bCEbc3574eC',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x66f046d4fCeF99106cba0A450f3cD19f3C1d7323',
+    type: 'NFT',
+  },
+  {
+    channel: '0xDE39dc2471659D49E3B5FF159d374F98C293FE42',
+    type: 'DeFi',
+  },
+  {
+    channel: '0xa947E9cFc724f05D83b995e53572c4bcCB00D7Aa',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x1b84DA8D174A90D9aC06Ee994b686E2F5780BE98',
+    type: 'Tooling',
+  },
+  {
+    channel: '0x0FeB3a10E0800F354b0c329cf0470C6782551e65',
+    type: 'Tooling',
+  },
+  {
+    channel: '0xBA840BBa552cAf4A4EC61E78DcdB00194CF7A9a0',
+    type: 'Tooling',
+  },
+  {
+    channel: '0xB59Cdc85Cacd15097ecE4C77ed9D225014b4D56D',
+    type: 'Tooling',
+  },
+  {
+    channel: '0x9fa5b8F350c08d7F9802cE9D7db0f322946e9C80',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x97248C0ddC583537a824A7ad5Ee92D5f4525bcAa',
+    type: 'Tooling',
+  },
+  {
+    channel: '0x5cbDFE918c64D4630a1e5BD90c98cC8BE8f47F21',
+    type: 'DAO',
+  },
+  {
+    channel: '0x8DeEFfB6047b8Ee91b09334eB2a4CA120f43f596',
+    type: 'NFT',
+  },
+  {
+    channel: '0x9D2cAcDC93725e2a97608E6A9020680F8e9522Fa',
+    type: 'Metaverse',
+  },
+  {
+    channel: '0x3f03D6Eb11659e1E006cc8522552ac4B1D5F6420',
+    type: 'Media',
+  },
+  {
+    channel: '0x5BC96B831cD6FC900C10DC50a56c852701F03F35',
+  },
+  {
+    channel: '0xf192080bdFbF1ED6f2c6a38Cd273a8ff59018176',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x554A45EA949851f4b4047Ab958a985B4d4884ddd',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x46e6C2aADbb7c37a38a583FA2136444085DFD322',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x6193Bc1a8E1610d508e18EF21F4A12b8EFeFE007',
+    type: 'Infrastructure',
+  },
+  {
+    channel: '0xDa63D70332139E6A8eCA7513f4b6E2E0Dc93b693',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x744D16d200175d20E6D8e5f405AEfB4EB7A962d1',
+    type: 'DAO',
+  },
+  {
+    channel: '0x33F04Cf7fa115165aF33CEA6846AA0dbC20c318B',
+    type: 'Service',
+  },
+  {
+    channel: '0x9D61ae5875E89036FBf6059f3116d01a22ACe3C8',
+  },
+  {
+    channel: '0xbb35A50c928BAe39a8aBBB22c33A5a0dec33fc1F',
+    type: 'Tooling',
+  },
+  {
+    channel: '0xcf3224c64FF2d5b18b5e4460b1103FF9037eFAC2',
+    type: 'NFT',
+  },
+  {
+    channel: '0x18C6A47AcA1c6a237e53eD2fc3a8fB392c97169b',
+    type: 'DAO',
+  },
+  {
+    channel: '0x3d4aaFbe86059d17C6263332c560f18C4F1Fec34',
+    type: 'Tooling',
+  },
+  {
+    channel: '0xf5D45CA0532008FBc09d8667778427EAe9164C6d',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x350bF1b724ce1eFFAb57959Bae9cEf657882ddF9',
+    type: 'Tooling',
+  },
+  {
+    channel: '0x30f6bB77f74e74d627771E7B757e984A1d6457f9',
+    type: 'Tooling',
+  },
+  {
+    channel: '0xc93b92f859C9fcEBC6C85a9eE6f7b8c47c89D221',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x7183a02EBb534a7B183741Bab09F4ec932DCe27B',
+    type: 'Tooling',
+  },
+  {
+    channel: '0xb1d97f8DBe9B4C971622df75F0D02Bb50955b526',
+    type: 'DAO',
+  },
+  {
+    channel: '0x5CA0E8e25eC486928F7C8C35De484235Cbf3eb53',
+    type: 'Tooling',
+  },
+  {
+    channel: '0x4fFACe9865bDCBc0b36ec881Fa27803046A88736',
+    type: 'DAO',
+  },
+  {
+    channel: '0xE3a856E4034D25FF68b3702B8f1618173BBFa130',
+    type: 'Tooling',
+  },
+  {
+    channel: '0xB171FE9951178C732339Ca154030d897D6941528',
+    type: 'Media',
+  },
+  {
+    channel: '0xF2b396E2E7C830ea0d085023f28cf54e6788dF48',
+    type: 'Tooling',
+  },
+  {
+    channel: '0xD1CCfb9Fbd9A8DE0cf9950eFbCFb29adcDA81C93',
+    type: 'Tooling',
+  },
+  {
+    channel: '0x76bA9825A5F707F133124E4608F1F2Dd1EF4006a',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x9bBb9c87E1B203c8B62Bd0c91FfDAD32bc3b16bD',
+    type: 'DeFi',
+  },
+  {
+    channel: '0xAd95A5fE898679B927C266eB2eDfAbC7fe268C27',
+    type: 'DAO',
+  },
+  {
+    channel: '0x7101829b8C82184D59D1dAE4361DB057F85656a1',
+    type: 'DAO',
+  },
+  {
+    channel: '0x49C899a1fA59A7edf23c249d491805c9077bf62B',
+    type: 'Service',
+  },
+  {
+    channel: '0x199012076Ea09f92D8C30C494E94738CFF449f57',
+    type: 'NFT',
+  },
+  {
+    channel: '0xF8F6B70a36f4398f0853a311dC6699Aba8333Cc1',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x95de504e94cc0c85534FcCc3e640BBc9b02056Fc',
+    type: 'DeFi',
+  },
+  {
+    channel: '0xEC864BE26084ba3bbF3cAAcF8F6961A9263319C4',
+    type: 'DeFi',
+  },
+  {
+    channel: '0x72A69e7dAb96e415A42b4fa841DbAA899Ab780F6',
+  },
+  {
+    channel: '0xC5Db59D48700B6bC8D53cE773b21931d986DEa0E',
+    type: 'DeFi',
+  },
+  {
+    channel: '0xEfD89ebe360dc957b5a09c5d8716f17f48196137',
+  },
 ]
-export const ChannelList = () => {
-  // const [list, setList] = useState([]);
-  // useEffect(()=> {
-    getChannels();
+// export const ChannelList = async () => {
+  // getChannels();
 
-  // },[])
-  async function getChannels() {
-    const requrl =  `https://backend.epns.io/apis/v1/channels?page=1&limit=9&sort=subscribers&order=desc`;
+  export async function getChannelsList(page) {
+    const requrl =  `https://backend.epns.io/apis/v1/channels?page=${page}&limit=9&sort=subscribers&order=desc`;
 
     try {
       const apiResponse = await axios.get(requrl);
       const channels = apiResponse?.data?.channels;
-      // const result = channels.filter((x) => newList.find((y) => { return x?.channel === y?.channel; }));
-      // { ...x, type: newList?.channel }
-      const result = newList.map((x) => {
-        const index = channels.find((u) => u.channel === x.channel); 
-        if (index) 
-        console.log(index, 'new');
-        {newList.push({...index, type: x?.type }) }
-        return x;
+
+      // append type to api data if channel prop matches
+      const searchTogether = d => newList.find(f => f.channel === d.channel)
+      const results = channels.filter(d => {
+        let f = searchTogether(d);
+        return f ? Object.assign(d, f) : false;
       })
-      // const result = channels.map((x) => ({ ...x, type: newList[x.channel] },console.log(x,newList?.[x.channel])))
-      console.log(result,newList);
-      return channels;
+  
+      // console.log(results);
+      return results;
     } catch (error) {
       throw Error(error);
     }
   }
-}
-
+// }

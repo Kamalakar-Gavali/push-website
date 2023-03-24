@@ -18,7 +18,7 @@ import ChannelItem, { Tilt } from 'components/ChannelItem';
 import { FiChevronDown } from 'react-icons/fi';
 import SpinnerSVG from 'assets/Spinner.gif';
 import Image from 'assets/bg-image.png';
-import { ChannelList, objChannelList } from 'config/ChannelList';
+import { objChannelList,getChannelsList } from 'config/ChannelList';
 import { ReactComponent as AaveSVG } from '../assets/float/aave.svg';
 import { ReactComponent as LensSVG } from '../assets/float/Lens.svg';
 import { ReactComponent as LifiSVG } from '../assets/float/Lifi.svg';
@@ -47,9 +47,6 @@ const FrensText = () => {
     scale: 1,
     speed: 1000,
     max: 20,
-    // glare: true,
-    // 'max-glare': 1,
-    // "glare-prerender": false,
   };
 
   const typeList = [
@@ -90,77 +87,79 @@ const FrensText = () => {
 
   useEffect(() => {
     fetchChannels();
-    ChannelList();
-  }, [objChannelList]);
+    // ChannelList();
+  }, []);
 
-  const fetchChannels = () => {
-    let freshPage = 0;
+  const fetchChannels = async () => {
+    let freshPage = 1;
     setPage(freshPage);
-    if (objChannelList.length) {
-      let list = objChannelList?.slice(freshPage, freshPage + 9);
+    let list = await getChannelsList(freshPage)
+    console.log(list);
+    // if (objChannelList.length) {
+    //   let list = objChannelList?.slice(freshPage, freshPage + 9);
       setTimeout(() => {
         setLoading(false);
         setChannels(list);
       }, 1000);
-    }
+    // }
   };
 
   useEffect(() => {
     if (search.length > 0 || active !== 'All') return;
-    fetchChannels();
+    // fetchChannels();
   }, [search]);
 
   const ShowMore = async () => {
     //page
-    let newPage = page + 9;
-    setPage(newPage);
+    // let newPage = page + 9;
+    // setPage(newPage);
 
-    try {
-      setLoading(true);
-      let data = objChannelList?.slice(newPage, newPage + 9);
-      setTimeout(() => {
-        setChannels((current) => [...current, ...data]);
-      }, 500);
-    } catch (error) {
-      console.error('Channels API data fetch error: ', error);
-    } finally {
-      setTimeout(() => {
-        setLoading(false);
-      }, 500);
-    }
+    // try {
+    //   setLoading(true);
+    //   let data = objChannelList?.slice(newPage, newPage + 9);
+    //   setTimeout(() => {
+    //     setChannels((current) => [...current, ...data]);
+    //   }, 500);
+    // } catch (error) {
+    //   console.error('Channels API data fetch error: ', error);
+    // } finally {
+    //   setTimeout(() => {
+    //     setLoading(false);
+    //   }, 500);
+    // }
   };
 
   const channelSearch = async (e) => {
-    let query = e.target.value.toLowerCase();
-    setSearch(e.target.value);
-    if (e.target.value?.length == 0) return;
+    // let query = e.target.value.toLowerCase();
+    // setSearch(e.target.value);
+    // if (e.target.value?.length == 0) return;
 
-    try {
-      setLoading(true);
-      const data = objChannelList.filter((x) => x.name.toLowerCase().includes(query));
-      setChannels(data);
-    } catch (error) {
-      console.error('Channels API data fetch error: ', error);
-    } finally {
-      setLoading(false);
-    }
+    // try {
+    //   setLoading(true);
+    //   const data = objChannelList.filter((x) => x.name.toLowerCase().includes(query));
+    //   setChannels(data);
+    // } catch (error) {
+    //   console.error('Channels API data fetch error: ', error);
+    // } finally {
+    //   setLoading(false);
+    // }
   };
 
   const handleSort = (name) => {
     setActive(name);
-    setSearch('');
-    if (name == 'All') {
-      fetchChannels();
-      setCount(objChannelList.length);
-    } else {
-      setLoading(true);
-      let sortList = objChannelList.filter((x) => x.type === name);
-      setTimeout(() => {
-        setChannels(sortList);
-        setLoading(false);
-        setCount(sortList.length);
-      }, 500);
-    }
+    // setSearch('');
+    // if (name == 'All') {
+    //   fetchChannels();
+    //   setCount(objChannelList.length);
+    // } else {
+    //   setLoading(true);
+    //   let sortList = objChannelList.filter((x) => x.type === name);
+    //   setTimeout(() => {
+    //     setChannels(sortList);
+    //     setLoading(false);
+    //     setCount(sortList.length);
+    //   }, 500);
+    // }
   };
 
   useEffect(() => {
