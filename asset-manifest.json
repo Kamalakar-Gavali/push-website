@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.82e7a0cf.css",
-    "main.js": "/static/js/main.118827b6.js",
+    "main.js": "/static/js/main.4ccaa807.js",
     "static/js/305.452cba06.chunk.js": "/static/js/305.452cba06.chunk.js",
     "static/js/622.6b44a1a0.chunk.js": "/static/js/622.6b44a1a0.chunk.js",
     "static/js/545.dcf0d096.chunk.js": "/static/js/545.dcf0d096.chunk.js",
@@ -115,7 +115,7 @@
     "static/media/footerjoinus.svg": "/static/media/footerjoinus.e4eb6f73f1b4908d0a3f04f43ff0b320.svg",
     "static/media/idlefinance.svg": "/static/media/idlefinance.98f0462726494b8c261e1cca1a36e465.svg",
     "main.82e7a0cf.css.map": "/static/css/main.82e7a0cf.css.map",
-    "main.118827b6.js.map": "/static/js/main.118827b6.js.map",
+    "main.4ccaa807.js.map": "/static/js/main.4ccaa807.js.map",
     "305.452cba06.chunk.js.map": "/static/js/305.452cba06.chunk.js.map",
     "622.6b44a1a0.chunk.js.map": "/static/js/622.6b44a1a0.chunk.js.map",
     "545.dcf0d096.chunk.js.map": "/static/js/545.dcf0d096.chunk.js.map",
@@ -130,6 +130,6 @@
   },
   "entrypoints": [
     "static/css/main.82e7a0cf.css",
-    "static/js/main.118827b6.js"
+    "static/js/main.4ccaa807.js"
   ]
 }
